@@ -1,0 +1,14 @@
+C:\Users\Arthu\Projetos\Echo Client\bin\Debug\net7.0\Echo Client.exe
+C:\Users\Arthu\Projetos\Echo Client\bin\Debug\net7.0\Echo Client.deps.json
+C:\Users\Arthu\Projetos\Echo Client\bin\Debug\net7.0\Echo Client.runtimeconfig.json
+C:\Users\Arthu\Projetos\Echo Client\bin\Debug\net7.0\Echo Client.dll
+C:\Users\Arthu\Projetos\Echo Client\bin\Debug\net7.0\Echo Client.pdb
+C:\Users\Arthu\Projetos\Echo Client\obj\Debug\net7.0\Echo Client.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Arthu\Projetos\Echo Client\obj\Debug\net7.0\Echo Client.AssemblyInfoInputs.cache
+C:\Users\Arthu\Projetos\Echo Client\obj\Debug\net7.0\Echo Client.AssemblyInfo.cs
+C:\Users\Arthu\Projetos\Echo Client\obj\Debug\net7.0\Echo Client.csproj.CoreCompileInputs.cache
+C:\Users\Arthu\Projetos\Echo Client\obj\Debug\net7.0\Echo Client.dll
+C:\Users\Arthu\Projetos\Echo Client\obj\Debug\net7.0\refint\Echo Client.dll
+C:\Users\Arthu\Projetos\Echo Client\obj\Debug\net7.0\Echo Client.pdb
+C:\Users\Arthu\Projetos\Echo Client\obj\Debug\net7.0\Echo Client.genruntimeconfig.cache
+C:\Users\Arthu\Projetos\Echo Client\obj\Debug\net7.0\ref\Echo Client.dll

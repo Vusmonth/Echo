@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "dgSpecHash": "kLkz3i1QBhA5fRZyCKN7Ljt6hX9PKjkWK3vB4gqnNVneg+9EFg1izRZSU634Glz4s2J9LJcXw+PuLZVViUxEow==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Arthu\\Projetos\\Echo\\Echo Client\\Echo Client.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Arthu\\.nuget\\packages\\microsoft.aspnetcore.connections.abstractions\\7.0.13\\microsoft.aspnetcore.connections.abstractions.7.0.13.nupkg.sha512",
+    "C:\\Users\\Arthu\\.nuget\\packages\\microsoft.aspnetcore.http.connections.client\\7.0.13\\microsoft.aspnetcore.http.connections.client.7.0.13.nupkg.sha512",
+    "C:\\Users\\Arthu\\.nuget\\packages\\microsoft.aspnetcore.http.connections.common\\7.0.13\\microsoft.aspnetcore.http.connections.common.7.0.13.nupkg.sha512",
+    "C:\\Users\\Arthu\\.nuget\\packages\\microsoft.aspnetcore.signalr.client\\7.0.13\\microsoft.aspnetcore.signalr.client.7.0.13.nupkg.sha512",
+    "C:\\Users\\Arthu\\.nuget\\packages\\microsoft.aspnetcore.signalr.client.core\\7.0.13\\microsoft.aspnetcore.signalr.client.core.7.0.13.nupkg.sha512",
+    "C:\\Users\\Arthu\\.nuget\\packages\\microsoft.aspnetcore.signalr.common\\7.0.13\\microsoft.aspnetcore.signalr.common.7.0.13.nupkg.sha512",
+    "C:\\Users\\Arthu\\.nuget\\packages\\microsoft.aspnetcore.signalr.protocols.json\\7.0.13\\microsoft.aspnetcore.signalr.protocols.json.7.0.13.nupkg.sha512",
+    "C:\\Users\\Arthu\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "C:\\Users\\Arthu\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\Arthu\\.nuget\\packages\\microsoft.extensions.features\\7.0.13\\microsoft.extensions.features.7.0.13.nupkg.sha512",
+    "C:\\Users\\Arthu\\.nuget\\packages\\microsoft.extensions.logging\\7.0.0\\microsoft.extensions.logging.7.0.0.nupkg.sha512",
+    "C:\\Users\\Arthu\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.1\\microsoft.extensions.logging.abstractions.7.0.1.nupkg.sha512",
+    "C:\\Users\\Arthu\\.nuget\\packages\\microsoft.extensions.options\\7.0.1\\microsoft.extensions.options.7.0.1.nupkg.sha512",
+    "C:\\Users\\Arthu\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "C:\\Users\\Arthu\\.nuget\\packages\\system.io.pipelines\\7.0.0\\system.io.pipelines.7.0.0.nupkg.sha512",
+    "C:\\Users\\Arthu\\.nuget\\packages\\system.threading.channels\\7.0.0\\system.threading.channels.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

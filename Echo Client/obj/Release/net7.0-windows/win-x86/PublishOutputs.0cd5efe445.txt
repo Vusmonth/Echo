@@ -1,0 +1,2 @@
+C:\Users\Arthu\Projetos\Echo Client\bin\Release\net7.0-windows\publish\win-x86\Echo Client.pdb
+C:\Users\Arthu\Projetos\Echo Client\bin\Release\net7.0-windows\publish\win-x86\Echo Client.exe

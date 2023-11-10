@@ -1,0 +1,5 @@
+C:\Users\Arthu\Projetos\Echo Client\bin\Release\net7.0-windows\publish\Echo Client.exe
+C:\Users\Arthu\Projetos\Echo Client\bin\Release\net7.0-windows\publish\Echo Client.dll
+C:\Users\Arthu\Projetos\Echo Client\bin\Release\net7.0-windows\publish\Echo Client.deps.json
+C:\Users\Arthu\Projetos\Echo Client\bin\Release\net7.0-windows\publish\Echo Client.runtimeconfig.json
+C:\Users\Arthu\Projetos\Echo Client\bin\Release\net7.0-windows\publish\Echo Client.pdb
