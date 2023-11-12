@@ -8,9 +8,9 @@ namespace EchoClient
         static void Main(string[] args)
         {
 
-            SignalRClient.Build(5137);
-            SignalRClient.Start();
             Explorer explorer = new Explorer("C:\\Users\\Arthu");
+            SignalRClient.Build(5093);
+            SignalRClient.Start(explorer);
 
             while (true) { };
 

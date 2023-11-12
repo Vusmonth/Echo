@@ -16,13 +16,29 @@ namespace Echo_Client.Controllers
         public Explorer(string initialRoute)
         {
             this.currentRoute = initialRoute;
-            this.ListFiles();
-
+            //this.ListFiles();
+            Console.Clear();
+            Console.WriteLine(currentRoute);
         }
 
-        public void GoBack(string route)
+        public void GoBack()
         {
+            if (Directory.Exists(Directory.GetParent(currentRoute).FullName))
+            {
+                currentRoute = Directory.GetParent(currentRoute).FullName;
+                Console.Clear();
+                Console.WriteLine(currentRoute);
+            }
+        }
 
+        public void NavigateTo(string route)
+        {
+            if (Directory.Exists($"{currentRoute}\\{route}"))
+            {
+                currentRoute = $"{currentRoute}\\{route}";
+                Console.Clear();
+                Console.WriteLine(currentRoute);
+            }
         }
 
         public List<FileItem> ListFiles()
@@ -34,7 +50,6 @@ namespace Echo_Client.Controllers
                 {
                     FileItem dir = new(FileType.directory, item, DateTime.Now);
                     files.Add(dir);
-                    Console.WriteLine(dir);
                 }
 
                 foreach (var item in Directory.GetFiles(currentRoute))
@@ -42,7 +57,6 @@ namespace Echo_Client.Controllers
 
                     FileItem file = new(this.GetType($"{currentRoute}\\{item}"), item, DateTime.Now);
                     files.Add(file);
-                    Console.WriteLine($"{file.Name} | {file.Type}");
                 }
 
             }

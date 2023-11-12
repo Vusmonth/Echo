@@ -11,6 +11,7 @@ namespace Echo_Client.Controllers
     internal class SignalRClient
     {
         static HubConnection connection;
+        static Explorer explorer;
 
         public static void Build(int signalPort)
         {
@@ -26,23 +27,21 @@ namespace Echo_Client.Controllers
             };
         }
 
-        public static void Start()
+        public static void Start(Explorer _explorer)
         {
-            connection.On<string>("Count", HandleGoBack);
+            explorer = _explorer;
+            connection.On("EXPLORER/GO_BACK", HandleGoBack);
+            connection.On("EXPLORER/LIST_FILES", HandleGoBack);
+            connection.On<string>("EXPLORER/NAVIGATE_TO", HandleNavigateTo);
             connection.StartAsync().Wait();
         }
 
-        public static void HandleGoBack(string cmd)
+        public static async void HandleGoBack()
         {
-            Console.WriteLine(cmd);
-            Console.WriteLine($"\nPressione qualquer tecla para finalizar\n");
-        }
-
-        public static async void SendMessage()
-        {
+            explorer.GoBack();
             try
             {
-                await connection.InvokeAsync("SendMessage", "a", "aaa");
+                await connection.InvokeAsync("EXPLORER/EMIT_FILE_LIST", explorer.ListFiles());
             }
             catch (Exception ex)
             {
@@ -50,11 +49,25 @@ namespace Echo_Client.Controllers
             }
         }
 
-        public static async void End()
+        public static async void HandleListFiles()
         {
             try
             {
-                await connection.InvokeAsync("CountEvents", "Count");
+                await connection.InvokeAsync("EXPLORER/EMIT_FILE_LIST", explorer.ListFiles());
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.ToString());
+            }
+        }
+
+        public static async void HandleNavigateTo(string path)
+        {
+            explorer.NavigateTo(path);
+
+            try
+            {
+                await connection.InvokeAsync("EXPLORER/EMIT_FILE_LIST", explorer.ListFiles());
             }
             catch (Exception ex)
             {
