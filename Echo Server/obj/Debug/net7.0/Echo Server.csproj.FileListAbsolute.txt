@@ -1,0 +1,33 @@
+C:\Users\Arthu\Projetos\Echo\Echo Server\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\Arthu\Projetos\Echo\Echo Server\bin\Debug\net7.0\appsettings.json
+C:\Users\Arthu\Projetos\Echo\Echo Server\bin\Debug\net7.0\Echo Server.exe
+C:\Users\Arthu\Projetos\Echo\Echo Server\bin\Debug\net7.0\Echo Server.deps.json
+C:\Users\Arthu\Projetos\Echo\Echo Server\bin\Debug\net7.0\Echo Server.runtimeconfig.json
+C:\Users\Arthu\Projetos\Echo\Echo Server\bin\Debug\net7.0\Echo Server.dll
+C:\Users\Arthu\Projetos\Echo\Echo Server\bin\Debug\net7.0\Echo Server.pdb
+C:\Users\Arthu\Projetos\Echo\Echo Server\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\Arthu\Projetos\Echo\Echo Server\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\Arthu\Projetos\Echo\Echo Server\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Arthu\Projetos\Echo\Echo Server\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Arthu\Projetos\Echo\Echo Server\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Arthu\Projetos\Echo\Echo Server\obj\Debug\net7.0\Echo Server.csproj.AssemblyReference.cache
+C:\Users\Arthu\Projetos\Echo\Echo Server\obj\Debug\net7.0\Echo Server.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Arthu\Projetos\Echo\Echo Server\obj\Debug\net7.0\Echo Server.AssemblyInfoInputs.cache
+C:\Users\Arthu\Projetos\Echo\Echo Server\obj\Debug\net7.0\Echo Server.AssemblyInfo.cs
+C:\Users\Arthu\Projetos\Echo\Echo Server\obj\Debug\net7.0\Echo Server.csproj.CoreCompileInputs.cache
+C:\Users\Arthu\Projetos\Echo\Echo Server\obj\Debug\net7.0\Echo Server.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Arthu\Projetos\Echo\Echo Server\obj\Debug\net7.0\Echo Server.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Arthu\Projetos\Echo\Echo Server\obj\Debug\net7.0\staticwebassets\msbuild.Echo Server.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Arthu\Projetos\Echo\Echo Server\obj\Debug\net7.0\staticwebassets\msbuild.build.Echo Server.props
+C:\Users\Arthu\Projetos\Echo\Echo Server\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Echo Server.props
+C:\Users\Arthu\Projetos\Echo\Echo Server\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Echo Server.props
+C:\Users\Arthu\Projetos\Echo\Echo Server\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\Arthu\Projetos\Echo\Echo Server\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\Arthu\Projetos\Echo\Echo Server\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\Arthu\Projetos\Echo\Echo Server\obj\Debug\net7.0\scopedcss\bundle\Echo Server.styles.css
+C:\Users\Arthu\Projetos\Echo\Echo Server\obj\Debug\net7.0\Echo Server.csproj.CopyComplete
+C:\Users\Arthu\Projetos\Echo\Echo Server\obj\Debug\net7.0\Echo Server.dll
+C:\Users\Arthu\Projetos\Echo\Echo Server\obj\Debug\net7.0\refint\Echo Server.dll
+C:\Users\Arthu\Projetos\Echo\Echo Server\obj\Debug\net7.0\Echo Server.pdb
+C:\Users\Arthu\Projetos\Echo\Echo Server\obj\Debug\net7.0\Echo Server.genruntimeconfig.cache
+C:\Users\Arthu\Projetos\Echo\Echo Server\obj\Debug\net7.0\ref\Echo Server.dll

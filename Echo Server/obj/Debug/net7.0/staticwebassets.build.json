@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "JO1gALrWcd+aXZBG1ZOZUsXJ7NFdfj77aQdT1X+wYuo=",
+  "Source": "Echo Server",
+  "BasePath": "_content/Echo Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
