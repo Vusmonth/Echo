@@ -31,7 +31,7 @@ namespace Echo_Client.Controllers
         {
             explorer = _explorer;
             connection.On("EXPLORER/GO_BACK", HandleGoBack);
-            connection.On("EXPLORER/LIST_FILES", HandleGoBack);
+            connection.On("EXPLORER/LIST_FILES", HandleListFiles);
             connection.On<string>("EXPLORER/NAVIGATE_TO", HandleNavigateTo);
             connection.StartAsync().Wait();
         }

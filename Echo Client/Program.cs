@@ -1,4 +1,5 @@
 ﻿using Echo_Client.Controllers;
+using EchoUtility;
 using System.Diagnostics;
 
 namespace EchoClient
