@@ -7,26 +7,57 @@ namespace EchoClient
 {
     class Program
     {
+        static Explorer explorer = new Explorer("C:\\Users\\Arthu");
+        static HubConnection client = SignalRClient.Connect("http://localhost:5093/explorer");
+
         static void Main(string[] args)
         {
 
-            Explorer explorer = new Explorer("C:\\Users\\Arthu");
-            HubConnection client = SignalRClient.Connect("http://localhost:5093/explorer");
-
-            client.On<string>("TESTE", (e) => { Console.WriteLine("aaa"); });
-            client.On("EXPLORER/LIST_FILES", () => { Console.WriteLine("aaa"); });
-
-            //SignalRClientDesktop.Build(5093);
-            //SignalRClientDesktop.Start(explorer);
+            client.On("EXPLORER/GO_BACK", HandleGoBack);
+            client.On("EXPLORER/LIST_FILES", HandleListFiles);
+            client.On<string>("EXPLORER/NAVIGATE_TO", HandleNavigateTo);
 
             while (true) { };
 
         }
 
-        static void teste()
+        public static async void HandleGoBack()
         {
-
+            explorer.GoBack();
+            try
+            {
+                await client.InvokeAsync("EXPLORER/EMIT_FILE_LIST", explorer.ListFiles());
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.ToString());
+            }
         }
 
+        public static async void HandleListFiles()
+        {
+            try
+            {
+                await client.InvokeAsync("EXPLORER/EMIT_FILE_LIST", explorer.ListFiles());
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.ToString());
+            }
+        }
+
+        public static async void HandleNavigateTo(string path)
+        {
+            explorer.NavigateTo(path);
+
+            try
+            {
+                await client.InvokeAsync("EXPLORER/EMIT_FILE_LIST", explorer.ListFiles());
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.ToString());
+            }
+        }
     }
 }
