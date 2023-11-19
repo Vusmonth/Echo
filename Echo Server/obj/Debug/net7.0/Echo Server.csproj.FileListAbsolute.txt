@@ -7,7 +7,6 @@ C:\Users\Arthu\Projetos\Echo\Echo Server\bin\Debug\net7.0\Echo Server.dll
 C:\Users\Arthu\Projetos\Echo\Echo Server\bin\Debug\net7.0\Echo Server.pdb
 C:\Users\Arthu\Projetos\Echo\Echo Server\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
 C:\Users\Arthu\Projetos\Echo\Echo Server\bin\Debug\net7.0\Microsoft.OpenApi.dll
-C:\Users\Arthu\Projetos\Echo\Echo Server\bin\Debug\net7.0\Newtonsoft.Json.dll
 C:\Users\Arthu\Projetos\Echo\Echo Server\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\Arthu\Projetos\Echo\Echo Server\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\Arthu\Projetos\Echo\Echo Server\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -34,3 +33,6 @@ C:\Users\Arthu\Projetos\Echo\Echo Server\obj\Debug\net7.0\refint\Echo Server.dll
 C:\Users\Arthu\Projetos\Echo\Echo Server\obj\Debug\net7.0\Echo Server.pdb
 C:\Users\Arthu\Projetos\Echo\Echo Server\obj\Debug\net7.0\Echo Server.genruntimeconfig.cache
 C:\Users\Arthu\Projetos\Echo\Echo Server\obj\Debug\net7.0\ref\Echo Server.dll
+C:\Users\Arthu\Projetos\Echo\Echo Server\bin\Debug\net7.0\Microsoft.AspNetCore.Http.Connections.Client.dll
+C:\Users\Arthu\Projetos\Echo\Echo Server\bin\Debug\net7.0\Microsoft.AspNetCore.SignalR.Client.dll
+C:\Users\Arthu\Projetos\Echo\Echo Server\bin\Debug\net7.0\Microsoft.AspNetCore.SignalR.Client.Core.dll

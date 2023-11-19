@@ -180,6 +180,9 @@
       },
       "System.Threading.Channels/7.0.0": {},
       "EchoUtility/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.SignalR.Client": "7.0.13"
+        },
         "runtime": {
           "EchoUtility.dll": {}
         }

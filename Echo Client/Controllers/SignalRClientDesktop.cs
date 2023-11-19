@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.SignalR.Client;
 
 namespace Echo_Client.Controllers
 {
-    internal class SignalRClient
+    internal class SignalRClientDesktop
     {
         static HubConnection connection;
         static Explorer explorer;

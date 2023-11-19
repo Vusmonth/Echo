@@ -7,28 +7,28 @@ using System.Threading.Tasks;
 
 namespace EchoUtility
 {
-    class SignalRClient
+    public class SignalRClient
     {
         static SignalRClient? instance;
-        private HubConnection? connection;
+        static HubConnection? connection;
 
-        private SignalRClient()
+        private SignalRClient(string ConnectionURL)
         {
             connection = new HubConnectionBuilder()
-                   .WithUrl($"http://localhost:5000/explorer")
+                   .WithUrl(ConnectionURL ?? $"http://localhost:5000/explorer")
                    .WithAutomaticReconnect()
                    .Build();
 
             connection.StartAsync().Wait();
         }
 
-        public static SignalRClient Client()
+        public static HubConnection Connect(string ConnectionURL)
         {
-            if (instance == null)
+            if (connection == null)
             {
-                instance = new SignalRClient();
+                instance = new SignalRClient(ConnectionURL);
             }
-            return instance;
+            return connection;
         }
 
     }
