@@ -5,11 +5,16 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:Echo_Mobile"
     xmlns:pages="clr-namespace:Echo_Mobile.Pages"
-    Shell.FlyoutBehavior="Disabled">
+    Shell.FlyoutBehavior="Flyout">
 
     <ShellContent
         Title="Home"
         ContentTemplate="{DataTemplate pages:FileNavigator}"
         Route="MainPage" />
+
+    <ShellContent
+    Title="Default Page"
+    ContentTemplate="{DataTemplate local:MainPage}"
+    Route="DefaultPage" />
 
 </Shell>

@@ -14,7 +14,10 @@ namespace EchoUtility
         rar,
         sql,
         psd,
-        pdf
+        pdf,
+        png,
+        jpg,
+        mp4
     }
 
     public class FileItem

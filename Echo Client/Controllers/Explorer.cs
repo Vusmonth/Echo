@@ -11,7 +11,7 @@ namespace Echo_Client.Controllers
     public class Explorer
     {
         public string currentRoute = "";
-        private List<FileItem> files = new List<FileItem>();
+        private List<FileItem> files = new();
 
         public Explorer(string initialRoute)
         {
@@ -48,14 +48,14 @@ namespace Echo_Client.Controllers
 
                 foreach (var item in Directory.GetDirectories(currentRoute))
                 {
-                    FileItem dir = new(FileType.directory, item, DateTime.Now);
+                    FileItem dir = new(FileType.directory, item.Replace(currentRoute, ""), DateTime.Now);
                     files.Add(dir);
                 }
 
                 foreach (var item in Directory.GetFiles(currentRoute))
                 {
 
-                    FileItem file = new(this.GetType($"{currentRoute}\\{item}"), item, DateTime.Now);
+                    FileItem file = new(this.GetType($"{currentRoute}\\{item}"), item.Replace(currentRoute, ""), DateTime.Now);
                     files.Add(file);
                 }
 

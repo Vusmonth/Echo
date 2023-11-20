@@ -63,8 +63,4 @@
     <ProjectReference Include="..\EchoUtility\EchoUtility.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Models\" />
-  </ItemGroup>
-
 </Project>
