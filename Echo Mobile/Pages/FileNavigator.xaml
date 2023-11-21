@@ -5,9 +5,17 @@
              Title="Arquivos">
     <Grid Padding="10">
         <Grid.RowDefinitions>
-            <RowDefinition Height="0" />
+            <RowDefinition Height="Auto" />
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
+
+        <Button Text=".."
+                BackgroundColor="Transparent"
+                HorizontalOptions="FillAndExpand"
+                BorderColor="{StaticResource Gray300}"
+                BorderWidth="1"
+                TextColor="{AppThemeBinding Light={StaticResource Gray900}, Dark={StaticResource White}}"
+                CornerRadius="8"/>
 
 
         <CollectionView SelectionMode="None"  
@@ -40,7 +48,7 @@
                             </Grid.RowDefinitions>
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition Width="Auto" />
-                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="Auto" />
                             </Grid.ColumnDefinitions>
 
                             <Image

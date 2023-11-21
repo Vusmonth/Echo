@@ -58,6 +58,7 @@ C:\Users\Arthu\Projetos\Echo\Echo Client\obj\Debug\net7.0-windows\Echo Client.Ge
 C:\Users\Arthu\Projetos\Echo\Echo Client\obj\Debug\net7.0-windows\Echo Client.AssemblyInfoInputs.cache
 C:\Users\Arthu\Projetos\Echo\Echo Client\obj\Debug\net7.0-windows\Echo Client.AssemblyInfo.cs
 C:\Users\Arthu\Projetos\Echo\Echo Client\obj\Debug\net7.0-windows\Echo Client.csproj.CoreCompileInputs.cache
+C:\Users\Arthu\Projetos\Echo\Echo Client\obj\Debug\net7.0-windows\Echo Client.sourcelink.json
 C:\Users\Arthu\Projetos\Echo\Echo Client\obj\Debug\net7.0-windows\Echo Client.csproj.CopyComplete
 C:\Users\Arthu\Projetos\Echo\Echo Client\obj\Debug\net7.0-windows\Echo Client.dll
 C:\Users\Arthu\Projetos\Echo\Echo Client\obj\Debug\net7.0-windows\refint\Echo Client.dll

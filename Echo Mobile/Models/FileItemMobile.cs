@@ -9,35 +9,42 @@ namespace Echo_Mobile.Models
 {
     public class FileItemMobile : FileItem
     {
-        public string Image_Name = $"https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Golden_lion_tamarin_portrait3.jpg/220px-Golden_lion_tamarin_portrait3.jpg";
+        private string _image_Name;
+        public string Image_Name
+        {
+            get
+            {
+                switch (this.Type)
+                {
+                    case FileType.file:
+                        return $"blank_icon.png";
+
+                    case FileType.directory:
+                        return $"folder_icon.png";
+
+                    case FileType.zip:
+                        return $"zip.png";
+
+                    case FileType.png:
+                        return $"picture_icon.png";
+
+                    case FileType.jpg:
+                        return $"picture_icon.png";
+
+                    case FileType.jpeg:
+                        return $"picture_icon.png";
+                    default:
+                        return $"blank_icon.png";
+
+                };
+            }
+           
+        }
         public FileItemMobile(FileType type, string name, DateTime last_update) : base(type, name, last_update)
         {
             this.Type = type;
             this.Name = name;
             this.Last_update = last_update;
-
-
-            switch (type)
-            {
-                case FileType.file:
-                    Image_Name = $"Resources/Images/blank_icon.png";
-                    break;
-                case FileType.directory:
-                    Image_Name = $"https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Golden_lion_tamarin_portrait3.jpg/220px-Golden_lion_tamarin_portrait3.jpg";
-                    break;
-                case FileType.zip:
-                    Image_Name = $"Resources/Images/zip.png";
-                    break;
-                case FileType.png:
-                    Image_Name = $"Resources/Images/picture_icon.png";
-                    break;
-                case FileType.jpg:
-                    Image_Name = $"Resources/Images/picture_icon.png";
-                    break;
-                default:
-                    Image_Name = $"Resources/Images/blank_icon.png";
-                    break;
-            }
         }
     }
 }

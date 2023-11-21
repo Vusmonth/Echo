@@ -32,14 +32,14 @@ public partial class FileNavigator : ContentPage
         Connection.InvokeAsync("EXPLORER/LIST_FILES").Wait();
     }
 
-    [Obsolete]
     private void HandlerRefreshFileList(List<FileItemMobile> FileList)
     {
-        Device.BeginInvokeOnMainThread(() =>
+        ItemList.Clear();
+        foreach (FileItemMobile Item in FileList)
         {
-            ItemList = new ObservableCollection<FileItemMobile>(FileList);
-            ListController.ItemsSource = ItemList;
-        });
+            ItemList.Add(Item);
+        }
+        
     }
 
 }

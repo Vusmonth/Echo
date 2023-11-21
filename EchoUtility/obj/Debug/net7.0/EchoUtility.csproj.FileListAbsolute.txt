@@ -17,6 +17,7 @@ C:\Users\Arthu\Projetos\Echo\EchoUtility\obj\Debug\net7.0\EchoUtility.GeneratedM
 C:\Users\Arthu\Projetos\Echo\EchoUtility\obj\Debug\net7.0\EchoUtility.AssemblyInfoInputs.cache
 C:\Users\Arthu\Projetos\Echo\EchoUtility\obj\Debug\net7.0\EchoUtility.AssemblyInfo.cs
 C:\Users\Arthu\Projetos\Echo\EchoUtility\obj\Debug\net7.0\EchoUtility.csproj.CoreCompileInputs.cache
+C:\Users\Arthu\Projetos\Echo\EchoUtility\obj\Debug\net7.0\EchoUtility.sourcelink.json
 C:\Users\Arthu\Projetos\Echo\EchoUtility\obj\Debug\net7.0\EchoUtility.dll
 C:\Users\Arthu\Projetos\Echo\EchoUtility\obj\Debug\net7.0\refint\EchoUtility.dll
 C:\Users\Arthu\Projetos\Echo\EchoUtility\obj\Debug\net7.0\EchoUtility.pdb

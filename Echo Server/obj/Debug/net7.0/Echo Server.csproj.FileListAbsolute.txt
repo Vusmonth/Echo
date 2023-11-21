@@ -36,3 +36,4 @@ C:\Users\Arthu\Projetos\Echo\Echo Server\obj\Debug\net7.0\refint\Echo Server.dll
 C:\Users\Arthu\Projetos\Echo\Echo Server\obj\Debug\net7.0\Echo Server.pdb
 C:\Users\Arthu\Projetos\Echo\Echo Server\obj\Debug\net7.0\Echo Server.genruntimeconfig.cache
 C:\Users\Arthu\Projetos\Echo\Echo Server\obj\Debug\net7.0\ref\Echo Server.dll
+C:\Users\Arthu\Projetos\Echo\Echo Server\obj\Debug\net7.0\Echo Server.sourcelink.json

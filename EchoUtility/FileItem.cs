@@ -17,6 +17,7 @@ namespace EchoUtility
         pdf,
         png,
         jpg,
+        jpeg,
         mp4
     }
 
