@@ -14,6 +14,7 @@
                 HorizontalOptions="FillAndExpand"
                 BorderColor="{StaticResource Gray300}"
                 BorderWidth="1"
+                Clicked="GoBack"
                 TextColor="{AppThemeBinding Light={StaticResource Gray900}, Dark={StaticResource White}}"
                 CornerRadius="8"/>
 

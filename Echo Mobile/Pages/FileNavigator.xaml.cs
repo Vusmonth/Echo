@@ -42,4 +42,9 @@ public partial class FileNavigator : ContentPage
         
     }
 
+    private void GoBack(object sender, EventArgs e)
+    {
+        Connection.InvokeAsync("EXPLORER/GO_BACK").Wait();
+    }
+
 }
