@@ -43,6 +43,7 @@ namespace Echo_Client.Controllers
 
         public List<FileItem> ListFiles()
         {
+            files.Clear();
             if (Directory.Exists(currentRoute))
             {
 

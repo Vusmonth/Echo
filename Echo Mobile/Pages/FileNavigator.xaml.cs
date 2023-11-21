@@ -22,6 +22,7 @@ public partial class FileNavigator : ContentPage
     {
         base.OnAppearing();
         ListController.ItemsSource = ItemList;
+        ItemList.Clear();
         Connection.InvokeAsync("EXPLORER/LIST_FILES").Wait();
     }
 
