@@ -37,3 +37,41 @@ C:\Users\Arthu\Projetos\Echo\Echo Server\obj\Debug\net7.0\Echo Server.pdb
 C:\Users\Arthu\Projetos\Echo\Echo Server\obj\Debug\net7.0\Echo Server.genruntimeconfig.cache
 C:\Users\Arthu\Projetos\Echo\Echo Server\obj\Debug\net7.0\ref\Echo Server.dll
 C:\Users\Arthu\Projetos\Echo\Echo Server\obj\Debug\net7.0\Echo Server.sourcelink.json
+M:\Prototypes\Echo\Echo Server\bin\Debug\net7.0\appsettings.Development.json
+M:\Prototypes\Echo\Echo Server\bin\Debug\net7.0\appsettings.json
+M:\Prototypes\Echo\Echo Server\bin\Debug\net7.0\Echo Server.exe
+M:\Prototypes\Echo\Echo Server\bin\Debug\net7.0\Echo Server.deps.json
+M:\Prototypes\Echo\Echo Server\bin\Debug\net7.0\Echo Server.runtimeconfig.json
+M:\Prototypes\Echo\Echo Server\bin\Debug\net7.0\Echo Server.dll
+M:\Prototypes\Echo\Echo Server\bin\Debug\net7.0\Echo Server.pdb
+M:\Prototypes\Echo\Echo Server\bin\Debug\net7.0\Microsoft.AspNetCore.Http.Connections.Client.dll
+M:\Prototypes\Echo\Echo Server\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+M:\Prototypes\Echo\Echo Server\bin\Debug\net7.0\Microsoft.AspNetCore.SignalR.Client.dll
+M:\Prototypes\Echo\Echo Server\bin\Debug\net7.0\Microsoft.AspNetCore.SignalR.Client.Core.dll
+M:\Prototypes\Echo\Echo Server\bin\Debug\net7.0\Microsoft.OpenApi.dll
+M:\Prototypes\Echo\Echo Server\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+M:\Prototypes\Echo\Echo Server\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+M:\Prototypes\Echo\Echo Server\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+M:\Prototypes\Echo\Echo Server\bin\Debug\net7.0\EchoUtility.dll
+M:\Prototypes\Echo\Echo Server\bin\Debug\net7.0\EchoUtility.pdb
+M:\Prototypes\Echo\Echo Server\obj\Debug\net7.0\Echo Server.csproj.AssemblyReference.cache
+M:\Prototypes\Echo\Echo Server\obj\Debug\net7.0\Echo Server.GeneratedMSBuildEditorConfig.editorconfig
+M:\Prototypes\Echo\Echo Server\obj\Debug\net7.0\Echo Server.AssemblyInfoInputs.cache
+M:\Prototypes\Echo\Echo Server\obj\Debug\net7.0\Echo Server.AssemblyInfo.cs
+M:\Prototypes\Echo\Echo Server\obj\Debug\net7.0\Echo Server.csproj.CoreCompileInputs.cache
+M:\Prototypes\Echo\Echo Server\obj\Debug\net7.0\Echo Server.MvcApplicationPartsAssemblyInfo.cs
+M:\Prototypes\Echo\Echo Server\obj\Debug\net7.0\Echo Server.MvcApplicationPartsAssemblyInfo.cache
+M:\Prototypes\Echo\Echo Server\obj\Debug\net7.0\staticwebassets\msbuild.Echo Server.Microsoft.AspNetCore.StaticWebAssets.props
+M:\Prototypes\Echo\Echo Server\obj\Debug\net7.0\staticwebassets\msbuild.build.Echo Server.props
+M:\Prototypes\Echo\Echo Server\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Echo Server.props
+M:\Prototypes\Echo\Echo Server\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Echo Server.props
+M:\Prototypes\Echo\Echo Server\obj\Debug\net7.0\staticwebassets.pack.json
+M:\Prototypes\Echo\Echo Server\obj\Debug\net7.0\staticwebassets.build.json
+M:\Prototypes\Echo\Echo Server\obj\Debug\net7.0\staticwebassets.development.json
+M:\Prototypes\Echo\Echo Server\obj\Debug\net7.0\scopedcss\bundle\Echo Server.styles.css
+M:\Prototypes\Echo\Echo Server\obj\Debug\net7.0\Echo Server.csproj.CopyComplete
+M:\Prototypes\Echo\Echo Server\obj\Debug\net7.0\Echo Server.dll
+M:\Prototypes\Echo\Echo Server\obj\Debug\net7.0\refint\Echo Server.dll
+M:\Prototypes\Echo\Echo Server\obj\Debug\net7.0\Echo Server.pdb
+M:\Prototypes\Echo\Echo Server\obj\Debug\net7.0\Echo Server.genruntimeconfig.cache
+M:\Prototypes\Echo\Echo Server\obj\Debug\net7.0\ref\Echo Server.dll

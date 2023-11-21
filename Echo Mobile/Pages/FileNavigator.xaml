@@ -19,7 +19,7 @@
                 CornerRadius="8"/>
 
 
-        <CollectionView SelectionMode="None"  
+        <CollectionView SelectionMode="Single"  
                         Grid.Row="1" 
                         x:Name="ListController" 
                         ItemsSource="{Binding ItemList}"  >

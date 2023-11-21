@@ -22,3 +22,15 @@ C:\Users\Arthu\Projetos\Echo\EchoUtility\obj\Debug\net7.0\EchoUtility.dll
 C:\Users\Arthu\Projetos\Echo\EchoUtility\obj\Debug\net7.0\refint\EchoUtility.dll
 C:\Users\Arthu\Projetos\Echo\EchoUtility\obj\Debug\net7.0\EchoUtility.pdb
 C:\Users\Arthu\Projetos\Echo\EchoUtility\obj\Debug\net7.0\ref\EchoUtility.dll
+M:\Prototypes\Echo\EchoUtility\bin\Debug\net7.0\EchoUtility.deps.json
+M:\Prototypes\Echo\EchoUtility\bin\Debug\net7.0\EchoUtility.dll
+M:\Prototypes\Echo\EchoUtility\bin\Debug\net7.0\EchoUtility.pdb
+M:\Prototypes\Echo\EchoUtility\obj\Debug\net7.0\EchoUtility.csproj.AssemblyReference.cache
+M:\Prototypes\Echo\EchoUtility\obj\Debug\net7.0\EchoUtility.GeneratedMSBuildEditorConfig.editorconfig
+M:\Prototypes\Echo\EchoUtility\obj\Debug\net7.0\EchoUtility.AssemblyInfoInputs.cache
+M:\Prototypes\Echo\EchoUtility\obj\Debug\net7.0\EchoUtility.AssemblyInfo.cs
+M:\Prototypes\Echo\EchoUtility\obj\Debug\net7.0\EchoUtility.csproj.CoreCompileInputs.cache
+M:\Prototypes\Echo\EchoUtility\obj\Debug\net7.0\EchoUtility.dll
+M:\Prototypes\Echo\EchoUtility\obj\Debug\net7.0\refint\EchoUtility.dll
+M:\Prototypes\Echo\EchoUtility\obj\Debug\net7.0\EchoUtility.pdb
+M:\Prototypes\Echo\EchoUtility\obj\Debug\net7.0\ref\EchoUtility.dll

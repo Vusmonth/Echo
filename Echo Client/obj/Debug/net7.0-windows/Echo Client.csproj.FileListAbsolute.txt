@@ -65,3 +65,36 @@ C:\Users\Arthu\Projetos\Echo\Echo Client\obj\Debug\net7.0-windows\refint\Echo Cl
 C:\Users\Arthu\Projetos\Echo\Echo Client\obj\Debug\net7.0-windows\Echo Client.pdb
 C:\Users\Arthu\Projetos\Echo\Echo Client\obj\Debug\net7.0-windows\Echo Client.genruntimeconfig.cache
 C:\Users\Arthu\Projetos\Echo\Echo Client\obj\Debug\net7.0-windows\ref\Echo Client.dll
+M:\Prototypes\Echo\Echo Client\bin\Debug\net7.0-windows\Echo Client.exe
+M:\Prototypes\Echo\Echo Client\bin\Debug\net7.0-windows\Echo Client.deps.json
+M:\Prototypes\Echo\Echo Client\bin\Debug\net7.0-windows\Echo Client.runtimeconfig.json
+M:\Prototypes\Echo\Echo Client\bin\Debug\net7.0-windows\Echo Client.dll
+M:\Prototypes\Echo\Echo Client\bin\Debug\net7.0-windows\Echo Client.pdb
+M:\Prototypes\Echo\Echo Client\bin\Debug\net7.0-windows\Microsoft.AspNetCore.Connections.Abstractions.dll
+M:\Prototypes\Echo\Echo Client\bin\Debug\net7.0-windows\Microsoft.AspNetCore.Http.Connections.Client.dll
+M:\Prototypes\Echo\Echo Client\bin\Debug\net7.0-windows\Microsoft.AspNetCore.Http.Connections.Common.dll
+M:\Prototypes\Echo\Echo Client\bin\Debug\net7.0-windows\Microsoft.AspNetCore.SignalR.Client.dll
+M:\Prototypes\Echo\Echo Client\bin\Debug\net7.0-windows\Microsoft.AspNetCore.SignalR.Client.Core.dll
+M:\Prototypes\Echo\Echo Client\bin\Debug\net7.0-windows\Microsoft.AspNetCore.SignalR.Common.dll
+M:\Prototypes\Echo\Echo Client\bin\Debug\net7.0-windows\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+M:\Prototypes\Echo\Echo Client\bin\Debug\net7.0-windows\Microsoft.Extensions.DependencyInjection.dll
+M:\Prototypes\Echo\Echo Client\bin\Debug\net7.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+M:\Prototypes\Echo\Echo Client\bin\Debug\net7.0-windows\Microsoft.Extensions.Features.dll
+M:\Prototypes\Echo\Echo Client\bin\Debug\net7.0-windows\Microsoft.Extensions.Logging.dll
+M:\Prototypes\Echo\Echo Client\bin\Debug\net7.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+M:\Prototypes\Echo\Echo Client\bin\Debug\net7.0-windows\Microsoft.Extensions.Options.dll
+M:\Prototypes\Echo\Echo Client\bin\Debug\net7.0-windows\Microsoft.Extensions.Primitives.dll
+M:\Prototypes\Echo\Echo Client\bin\Debug\net7.0-windows\System.IO.Pipelines.dll
+M:\Prototypes\Echo\Echo Client\bin\Debug\net7.0-windows\EchoUtility.dll
+M:\Prototypes\Echo\Echo Client\bin\Debug\net7.0-windows\EchoUtility.pdb
+M:\Prototypes\Echo\Echo Client\obj\Debug\net7.0-windows\Echo Client.csproj.AssemblyReference.cache
+M:\Prototypes\Echo\Echo Client\obj\Debug\net7.0-windows\Echo Client.GeneratedMSBuildEditorConfig.editorconfig
+M:\Prototypes\Echo\Echo Client\obj\Debug\net7.0-windows\Echo Client.AssemblyInfoInputs.cache
+M:\Prototypes\Echo\Echo Client\obj\Debug\net7.0-windows\Echo Client.AssemblyInfo.cs
+M:\Prototypes\Echo\Echo Client\obj\Debug\net7.0-windows\Echo Client.csproj.CoreCompileInputs.cache
+M:\Prototypes\Echo\Echo Client\obj\Debug\net7.0-windows\Echo Client.csproj.CopyComplete
+M:\Prototypes\Echo\Echo Client\obj\Debug\net7.0-windows\Echo Client.dll
+M:\Prototypes\Echo\Echo Client\obj\Debug\net7.0-windows\refint\Echo Client.dll
+M:\Prototypes\Echo\Echo Client\obj\Debug\net7.0-windows\Echo Client.pdb
+M:\Prototypes\Echo\Echo Client\obj\Debug\net7.0-windows\Echo Client.genruntimeconfig.cache
+M:\Prototypes\Echo\Echo Client\obj\Debug\net7.0-windows\ref\Echo Client.dll

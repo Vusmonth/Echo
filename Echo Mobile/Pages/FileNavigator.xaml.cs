@@ -15,20 +15,13 @@ public partial class FileNavigator : ContentPage
     {
         InitializeComponent();
         Connection = Services.SignalRClient.Build(5093);
+        Connection.On<List<FileItemMobile>>("EXPLORER/FILE_LIST", HandlerRefreshFileList);
     }
 
     protected override void OnAppearing()
     {
         base.OnAppearing();
         ListController.ItemsSource = ItemList;
-        try
-        {
-            Connection.On<List<FileItemMobile>>("EXPLORER/FILE_LIST", HandlerRefreshFileList);
-        }
-        catch (Exception ex)
-        {
-            Console.WriteLine(ex.ToString());
-        }
         Connection.InvokeAsync("EXPLORER/LIST_FILES").Wait();
     }
 
