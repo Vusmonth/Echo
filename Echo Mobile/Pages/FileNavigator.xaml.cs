@@ -1,3 +1,4 @@
+using System.Collections.Immutable;
 using System.Collections.ObjectModel;
 using Echo_Mobile.Models;
 using Echo_Mobile.Services;
@@ -16,6 +17,8 @@ public partial class FileNavigator : ContentPage
         InitializeComponent();
         Connection = Services.SignalRClient.Build(5093);
         Connection.On<ObservableCollection<FileItemMobile>>("EXPLORER/FILE_LIST", HandlerRefreshFileList);
+
+        ListController.SelectionChanged += OnSelectItem;
     }
 
     protected override async void OnAppearing()
@@ -31,12 +34,22 @@ public partial class FileNavigator : ContentPage
         ListController.Dispatcher.Dispatch(() =>
         {
             ListController.ItemsSource = FileList;
-        });       
+        });
     }
 
     private void GoBack(object sender, EventArgs e)
     {
         Connection.InvokeAsync("EXPLORER/GO_BACK").Wait();
+    }
+
+    private async void OnSelectItem(object sender, SelectionChangedEventArgs e)
+    {
+        FileItemMobile item = (FileItemMobile)e.CurrentSelection[0];
+        if (item.Type == FileType.directory)
+        {
+            await Connection.InvokeAsync("EXPLORER/NAVIGATE_TO", item.Name.Replace("\\", ""));
+        }
+
     }
 
 }

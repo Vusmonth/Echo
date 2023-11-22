@@ -7,7 +7,7 @@ namespace EchoClient
 {
     class Program
     {
-        static Explorer explorer = new Explorer("C:\\Users\\Arthu");
+        static Explorer explorer = new Explorer(System.IO.Directory.GetCurrentDirectory());
         static HubConnection client = SignalRClient.Connect("http://localhost:5093/explorer");
 
         static void Main(string[] args)

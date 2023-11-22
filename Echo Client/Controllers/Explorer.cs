@@ -23,9 +23,9 @@ namespace Echo_Client.Controllers
 
         public void GoBack()
         {
-            if (Directory.Exists(Directory.GetParent(currentRoute).FullName))
+            if (Directory.Exists(Directory.GetParent(currentRoute)?.FullName))
             {
-                currentRoute = Directory.GetParent(currentRoute).FullName;
+                currentRoute = Directory.GetParent(currentRoute)?.FullName;
                 Console.Clear();
                 Console.WriteLine(currentRoute);
             }
@@ -67,7 +67,15 @@ namespace Echo_Client.Controllers
 
         private FileType GetType(string path)
         {
-            string ext = Path.GetExtension(path).ToLower().Remove(0, 1);
+            string ext = "";
+            try
+            {
+                ext = Path.GetExtension(path).ToLower().Remove(0, 1);
+            }
+            catch
+            {
+                ext = "";
+            }
 
             if (Enum.TryParse(typeof(FileType), ext, out object resultado))
             {
