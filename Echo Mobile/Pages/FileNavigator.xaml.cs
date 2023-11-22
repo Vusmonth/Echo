@@ -15,25 +15,23 @@ public partial class FileNavigator : ContentPage
     {
         InitializeComponent();
         Connection = Services.SignalRClient.Build(5093);
-        Connection.On<List<FileItemMobile>>("EXPLORER/FILE_LIST", HandlerRefreshFileList);
+        Connection.On<ObservableCollection<FileItemMobile>>("EXPLORER/FILE_LIST", HandlerRefreshFileList);
     }
 
-    protected override void OnAppearing()
+    protected override async void OnAppearing()
     {
         base.OnAppearing();
         ListController.ItemsSource = ItemList;
         ItemList.Clear();
-        Connection.InvokeAsync("EXPLORER/LIST_FILES").Wait();
+        await Connection.InvokeAsync("EXPLORER/LIST_FILES");
     }
 
-    private void HandlerRefreshFileList(List<FileItemMobile> FileList)
+    private void HandlerRefreshFileList(ObservableCollection<FileItemMobile> FileList)
     {
-        ItemList.Clear();
-        foreach (FileItemMobile Item in FileList)
+        ListController.Dispatcher.Dispatch(() =>
         {
-            ItemList.Add(Item);
-        }
-        
+            ListController.ItemsSource = FileList;
+        });       
     }
 
     private void GoBack(object sender, EventArgs e)
