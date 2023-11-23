@@ -33,6 +33,16 @@ namespace Echo_Mobile.Models
 
                     case FileType.jpeg:
                         return $"picture_icon.png";
+
+                    case FileType.exe:
+                        return $"exe_icon.png";
+
+                    case FileType.txt:
+                        return $"notes_icon.png";
+
+                    case FileType.mp4:
+                        return $"video_icon.png";
+
                     default:
                         return $"blank_icon.png";
 
