@@ -1,7 +1,6 @@
-using System.Collections.Immutable;
 using System.Collections.ObjectModel;
+using System.Diagnostics;
 using Echo_Mobile.Models;
-using Echo_Mobile.Services;
 using EchoUtility;
 using Microsoft.AspNetCore.SignalR.Client;
 
@@ -10,15 +9,21 @@ namespace Echo_Mobile.Pages;
 public partial class FileNavigator : ContentPage
 {
     public ObservableCollection<FileItemMobile> ItemList = new();
-    HubConnection Connection;
+    HubConnection client = SignalRClient.Connect("http://localhost:5093/explorer");
 
     public FileNavigator()
     {
         InitializeComponent();
-        Connection = Services.SignalRClient.Build(5093);
-        Connection.On<ObservableCollection<FileItemMobile>>("EXPLORER/FILE_LIST", HandlerRefreshFileList);
+        try
+        {
+            client.On<ObservableCollection<FileItemMobile>>("EXPLORER/FILE_LIST", HandlerRefreshFileList);
+            ListController.SelectionChanged += OnSelectItem;
+        }
+        catch (Exception ex)
+        {
+            Debug.WriteLine(ex);
+        }
 
-        ListController.SelectionChanged += OnSelectItem;
     }
 
     protected override async void OnAppearing()
@@ -26,7 +31,7 @@ public partial class FileNavigator : ContentPage
         base.OnAppearing();
         ListController.ItemsSource = ItemList;
         ItemList.Clear();
-        await Connection.InvokeAsync("EXPLORER/LIST_FILES");
+        await client.InvokeAsync("EXPLORER/LIST_FILES");
     }
 
     private void HandlerRefreshFileList(ObservableCollection<FileItemMobile> FileList)
@@ -39,7 +44,7 @@ public partial class FileNavigator : ContentPage
 
     private void GoBack(object sender, EventArgs e)
     {
-        Connection.InvokeAsync("EXPLORER/GO_BACK").Wait();
+        client.InvokeAsync("EXPLORER/GO_BACK").Wait();
     }
 
     private async void OnSelectItem(object sender, SelectionChangedEventArgs e)
@@ -47,7 +52,7 @@ public partial class FileNavigator : ContentPage
         FileItemMobile item = (FileItemMobile)e.CurrentSelection[0];
         if (item.Type == FileType.directory)
         {
-            await Connection.InvokeAsync("EXPLORER/NAVIGATE_TO", item.Name.Replace("\\", ""));
+            await client.InvokeAsync("EXPLORER/NAVIGATE_TO", item.Name.Replace("\\", ""));
         }
 
     }
