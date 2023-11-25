@@ -9,7 +9,7 @@ namespace Echo_Mobile.Pages;
 public partial class FileNavigator : ContentPage
 {
     public ObservableCollection<FileItemMobile> ItemList = new();
-    HubConnection client = SignalRClient.Connect("http://localhost:5093/explorer");
+    HubConnection client = SignalRClient.Connect("https://ordinary-edge-production.up.railway.app/explorer");
 
     public FileNavigator()
     {
