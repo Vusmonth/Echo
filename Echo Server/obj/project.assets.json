@@ -2036,23 +2036,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\pulsa\\.nuget\\packages\\": {},
+    "C:\\Users\\Arthu\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "M:\\Prototypes\\Echo\\Echo Server\\Echo Server.csproj",
+      "projectUniqueName": "C:\\Users\\Arthu\\Projetos\\Echo\\Echo Server\\Echo Server.csproj",
       "projectName": "Echo Server",
-      "projectPath": "M:\\Prototypes\\Echo\\Echo Server\\Echo Server.csproj",
-      "packagesPath": "C:\\Users\\pulsa\\.nuget\\packages\\",
-      "outputPath": "M:\\Prototypes\\Echo\\Echo Server\\obj\\",
+      "projectPath": "C:\\Users\\Arthu\\Projetos\\Echo\\Echo Server\\Echo Server.csproj",
+      "packagesPath": "C:\\Users\\Arthu\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Arthu\\Projetos\\Echo\\Echo Server\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\pulsa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Arthu\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -2068,8 +2068,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "M:\\Prototypes\\Echo\\EchoUtility\\EchoUtility.csproj": {
-              "projectPath": "M:\\Prototypes\\Echo\\EchoUtility\\EchoUtility.csproj"
+            "C:\\Users\\Arthu\\Projetos\\Echo\\EchoUtility\\EchoUtility.csproj": {
+              "projectPath": "C:\\Users\\Arthu\\Projetos\\Echo\\EchoUtility\\EchoUtility.csproj"
             }
           }
         }
@@ -2120,7 +2120,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

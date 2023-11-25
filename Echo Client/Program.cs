@@ -8,7 +8,7 @@ namespace EchoClient
     class Program
     {
         static Explorer explorer = new Explorer(System.IO.Directory.GetCurrentDirectory());
-        static HubConnection client = SignalRClient.Connect("http://localhost:5093/explorer");
+        static HubConnection client = SignalRClient.Connect("https://ordinary-edge-production.up.railway.app/explorer");
 
         static void Main(string[] args)
         {
