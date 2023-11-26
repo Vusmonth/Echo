@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cE7RqTHz/iyDMxfgYqGcCCNZv7fd0lwtWXwhVBzJYY99A0IKN4IudzTX1uD4y7/KkJaXLUny6eEakNkhLxKhyQ==",
+  "dgSpecHash": "qmPcVtH27sEdP8NWTf7ePD8pep3Sbew69+fppHk0B/RyrXwd5PZXcfw2gl9lgFlf7t0Jqs5vKn/hAn5cIoLxhg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Arthu\\Projetos\\Echo Client\\Echo Client.csproj",
+  "projectFilePath": "C:\\Users\\Arthu\\Projetos\\Echo\\Echo Client\\Echo Client.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Arthu\\.nuget\\packages\\microsoft.aspnetcore.connections.abstractions\\7.0.13\\microsoft.aspnetcore.connections.abstractions.7.0.13.nupkg.sha512",
     "C:\\Users\\Arthu\\.nuget\\packages\\microsoft.aspnetcore.http.connections.client\\7.0.13\\microsoft.aspnetcore.http.connections.client.7.0.13.nupkg.sha512",
@@ -18,11 +18,13 @@
     "C:\\Users\\Arthu\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.1\\microsoft.extensions.logging.abstractions.7.0.1.nupkg.sha512",
     "C:\\Users\\Arthu\\.nuget\\packages\\microsoft.extensions.options\\7.0.1\\microsoft.extensions.options.7.0.1.nupkg.sha512",
     "C:\\Users\\Arthu\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "C:\\Users\\Arthu\\.nuget\\packages\\microsoft.net.illink.analyzers\\7.0.100-1.23211.1\\microsoft.net.illink.analyzers.7.0.100-1.23211.1.nupkg.sha512",
+    "C:\\Users\\Arthu\\.nuget\\packages\\microsoft.net.illink.tasks\\7.0.100-1.23211.1\\microsoft.net.illink.tasks.7.0.100-1.23211.1.nupkg.sha512",
     "C:\\Users\\Arthu\\.nuget\\packages\\system.io.pipelines\\7.0.0\\system.io.pipelines.7.0.0.nupkg.sha512",
     "C:\\Users\\Arthu\\.nuget\\packages\\system.threading.channels\\7.0.0\\system.threading.channels.7.0.0.nupkg.sha512",
-    "C:\\Users\\Arthu\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x86\\7.0.11\\microsoft.netcore.app.runtime.win-x86.7.0.11.nupkg.sha512",
-    "C:\\Users\\Arthu\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x86\\7.0.11\\microsoft.windowsdesktop.app.runtime.win-x86.7.0.11.nupkg.sha512",
-    "C:\\Users\\Arthu\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x86\\7.0.11\\microsoft.aspnetcore.app.runtime.win-x86.7.0.11.nupkg.sha512"
+    "C:\\Users\\Arthu\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x86\\7.0.14\\microsoft.netcore.app.runtime.win-x86.7.0.14.nupkg.sha512",
+    "C:\\Users\\Arthu\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x86\\7.0.14\\microsoft.windowsdesktop.app.runtime.win-x86.7.0.14.nupkg.sha512",
+    "C:\\Users\\Arthu\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x86\\7.0.14\\microsoft.aspnetcore.app.runtime.win-x86.7.0.14.nupkg.sha512"
   ],
   "logs": []
 }

@@ -29,3 +29,37 @@ C:\Users\Arthu\Projetos\Echo Client\bin\Release\net7.0-windows\Microsoft.Extensi
 C:\Users\Arthu\Projetos\Echo Client\bin\Release\net7.0-windows\System.IO.Pipelines.dll
 C:\Users\Arthu\Projetos\Echo Client\obj\Release\net7.0-windows\Echo Client.csproj.AssemblyReference.cache
 C:\Users\Arthu\Projetos\Echo Client\obj\Release\net7.0-windows\Echo Client.csproj.CopyComplete
+C:\Users\Arthu\Projetos\Echo\Echo Client\bin\Release\net7.0-windows\Echo Client.exe
+C:\Users\Arthu\Projetos\Echo\Echo Client\bin\Release\net7.0-windows\Echo Client.deps.json
+C:\Users\Arthu\Projetos\Echo\Echo Client\bin\Release\net7.0-windows\Echo Client.runtimeconfig.json
+C:\Users\Arthu\Projetos\Echo\Echo Client\bin\Release\net7.0-windows\Echo Client.dll
+C:\Users\Arthu\Projetos\Echo\Echo Client\bin\Release\net7.0-windows\Echo Client.pdb
+C:\Users\Arthu\Projetos\Echo\Echo Client\bin\Release\net7.0-windows\Microsoft.AspNetCore.Connections.Abstractions.dll
+C:\Users\Arthu\Projetos\Echo\Echo Client\bin\Release\net7.0-windows\Microsoft.AspNetCore.Http.Connections.Client.dll
+C:\Users\Arthu\Projetos\Echo\Echo Client\bin\Release\net7.0-windows\Microsoft.AspNetCore.Http.Connections.Common.dll
+C:\Users\Arthu\Projetos\Echo\Echo Client\bin\Release\net7.0-windows\Microsoft.AspNetCore.SignalR.Client.dll
+C:\Users\Arthu\Projetos\Echo\Echo Client\bin\Release\net7.0-windows\Microsoft.AspNetCore.SignalR.Client.Core.dll
+C:\Users\Arthu\Projetos\Echo\Echo Client\bin\Release\net7.0-windows\Microsoft.AspNetCore.SignalR.Common.dll
+C:\Users\Arthu\Projetos\Echo\Echo Client\bin\Release\net7.0-windows\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+C:\Users\Arthu\Projetos\Echo\Echo Client\bin\Release\net7.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Arthu\Projetos\Echo\Echo Client\bin\Release\net7.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Arthu\Projetos\Echo\Echo Client\bin\Release\net7.0-windows\Microsoft.Extensions.Features.dll
+C:\Users\Arthu\Projetos\Echo\Echo Client\bin\Release\net7.0-windows\Microsoft.Extensions.Logging.dll
+C:\Users\Arthu\Projetos\Echo\Echo Client\bin\Release\net7.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Arthu\Projetos\Echo\Echo Client\bin\Release\net7.0-windows\Microsoft.Extensions.Options.dll
+C:\Users\Arthu\Projetos\Echo\Echo Client\bin\Release\net7.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\Arthu\Projetos\Echo\Echo Client\bin\Release\net7.0-windows\System.IO.Pipelines.dll
+C:\Users\Arthu\Projetos\Echo\Echo Client\bin\Release\net7.0-windows\EchoUtility.dll
+C:\Users\Arthu\Projetos\Echo\Echo Client\bin\Release\net7.0-windows\EchoUtility.pdb
+C:\Users\Arthu\Projetos\Echo\Echo Client\obj\Release\net7.0-windows\Echo Client.csproj.AssemblyReference.cache
+C:\Users\Arthu\Projetos\Echo\Echo Client\obj\Release\net7.0-windows\Echo Client.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Arthu\Projetos\Echo\Echo Client\obj\Release\net7.0-windows\Echo Client.AssemblyInfoInputs.cache
+C:\Users\Arthu\Projetos\Echo\Echo Client\obj\Release\net7.0-windows\Echo Client.AssemblyInfo.cs
+C:\Users\Arthu\Projetos\Echo\Echo Client\obj\Release\net7.0-windows\Echo Client.csproj.CoreCompileInputs.cache
+C:\Users\Arthu\Projetos\Echo\Echo Client\obj\Release\net7.0-windows\Echo Client.sourcelink.json
+C:\Users\Arthu\Projetos\Echo\Echo Client\obj\Release\net7.0-windows\Echo Client.csproj.CopyComplete
+C:\Users\Arthu\Projetos\Echo\Echo Client\obj\Release\net7.0-windows\Echo Client.dll
+C:\Users\Arthu\Projetos\Echo\Echo Client\obj\Release\net7.0-windows\refint\Echo Client.dll
+C:\Users\Arthu\Projetos\Echo\Echo Client\obj\Release\net7.0-windows\Echo Client.pdb
+C:\Users\Arthu\Projetos\Echo\Echo Client\obj\Release\net7.0-windows\Echo Client.genruntimeconfig.cache
+C:\Users\Arthu\Projetos\Echo\Echo Client\obj\Release\net7.0-windows\ref\Echo Client.dll

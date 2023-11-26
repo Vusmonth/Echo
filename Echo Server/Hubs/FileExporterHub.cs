@@ -33,5 +33,12 @@ namespace Echo_Server.Hubs
         {
             await Clients.All.SendAsync("EXPLORER/FILE_LIST", files);
         }
+
+        [HubMethodName("EXPLORER/CURRENT_PATH")]
+        public async Task EmitCurrentPath(string path)
+        {
+            await Clients.All.SendAsync("EXPLORER/CURRENT_PATH", path);
+        }
+
     }
 }

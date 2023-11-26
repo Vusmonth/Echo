@@ -7,6 +7,12 @@ using System.Threading.Tasks;
 
 namespace EchoUtility
 {
+    public enum ConnectionMode
+    {
+        Development,
+        Production
+    }
+
     public class SignalRClient
     {
         static SignalRClient? instance;
@@ -15,18 +21,20 @@ namespace EchoUtility
         private SignalRClient(string ConnectionURL)
         {
             connection = new HubConnectionBuilder()
-                   .WithUrl(ConnectionURL ?? $"http://localhost:5000/explorer")
+                   .WithUrl(ConnectionURL)
                    .WithAutomaticReconnect()
                    .Build();
 
             connection.StartAsync().Wait();
         }
 
-        public static HubConnection Connect(string ConnectionURL)
+        public static HubConnection Connect(ConnectionMode connectionMode)
         {
             if (connection == null)
             {
-                instance = new SignalRClient(ConnectionURL);
+                string remoteURL = "https://ordinary-edge-production.up.railway.app/explorer";
+                string localURL = "http://localhost:8081/explorer";
+                instance = new SignalRClient(connectionMode == ConnectionMode.Production ? remoteURL : localURL);
             }
             return connection;
         }

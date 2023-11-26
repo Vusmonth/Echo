@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Echo Client")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6868ed4059c49ca05d3c5a64c79955ec209d9914")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c67d094638caf0cb25f0bbe0db7a9f9074c2c7b6")]
 [assembly: System.Reflection.AssemblyProductAttribute("Echo Client")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Echo Client")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
