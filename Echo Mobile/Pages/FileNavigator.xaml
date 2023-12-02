@@ -10,9 +10,10 @@
         </Grid.RowDefinitions>
 
         <Button Text=".."
+                x:Name="BackButton"
                 BackgroundColor="Transparent"
-                HorizontalOptions="FillAndExpand"
-                BorderColor="{StaticResource Gray300}"
+                HorizontalOptions="StartAndExpand"
+                BorderColor="Transparent"
                 BorderWidth="1"
                 Clicked="GoBack"
                 TextColor="{AppThemeBinding Light={StaticResource Gray900}, Dark={StaticResource White}}"

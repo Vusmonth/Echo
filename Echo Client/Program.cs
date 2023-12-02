@@ -27,6 +27,7 @@ namespace EchoClient
             try
             {
                 await client.InvokeAsync("EXPLORER/EMIT_FILE_LIST", explorer.ListFiles());
+                await client.InvokeAsync("EXPLORER/CURRENT_PATH", explorer.currentRoute);
             }
             catch (Exception ex)
             {
@@ -39,6 +40,7 @@ namespace EchoClient
             try
             {
                 await client.InvokeAsync("EXPLORER/EMIT_FILE_LIST", explorer.ListFiles());
+                await client.InvokeAsync("EXPLORER/CURRENT_PATH", explorer.currentRoute);
             }
             catch (Exception ex)
             {
@@ -53,6 +55,7 @@ namespace EchoClient
             try
             {
                 await client.InvokeAsync("EXPLORER/EMIT_FILE_LIST", explorer.ListFiles());
+                await client.InvokeAsync("EXPLORER/CURRENT_PATH", explorer.currentRoute);
             }
             catch (Exception ex)
             {

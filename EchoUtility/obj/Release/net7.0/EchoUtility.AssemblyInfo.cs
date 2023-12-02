@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EchoUtility")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c67d094638caf0cb25f0bbe0db7a9f9074c2c7b6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("EchoUtility")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EchoUtility")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

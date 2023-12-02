@@ -17,6 +17,7 @@ public partial class FileNavigator : ContentPage
         try
         {
             client.On<ObservableCollection<FileItemMobile>>("EXPLORER/FILE_LIST", HandlerRefreshFileList);
+            client.On<string>("EXPLORER/CURRENT_PATH", HandlerRefreshRoute);
             ListController.SelectionChanged += OnSelectItem;
         }
         catch (Exception ex)
@@ -39,6 +40,14 @@ public partial class FileNavigator : ContentPage
         ListController.Dispatcher.Dispatch(() =>
         {
             ListController.ItemsSource = FileList;
+        });
+    }
+
+    private void HandlerRefreshRoute(string currentRoute)
+    {
+        ListController.Dispatcher.Dispatch(() =>
+        {
+            BackButton.Text = currentRoute;
         });
     }
 
